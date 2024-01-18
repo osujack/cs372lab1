@@ -1,9 +1,11 @@
 #       Author: Jackson Lee
 #         Date: 01/17/2023
 #       Course: CS 372 Winter 2024
-#          Lab: 1
+#      Project: 1
+#      Program: Sockets and HTTP
 #  Description: Create a simple python program that uses a socket to interact with a server.
-#
+#               Create a socket program to receive arbitrarily large file.
+#               Create a tiny browser and web-server using python sockets.
 
 # import socket.py module to use the python socket API.
 import socket
