@@ -4,7 +4,6 @@
 #      Project: 1
 #      Program: Sockets and HTTP
 #  Description: Create a tiny browser and web-server using python sockets.
-#
 
 import socket  # import socket.py module to use the python socket API.
 import random  # import random.py module to use the randomized integers as port number.
@@ -55,5 +54,11 @@ if __name__ == "__main__":
 # Citation for the following Constants: socket.AF_INET, socket.SOCK_STREAM
 # Citation for the following Socket Objects: socket.bind, socket.listen
 # Date: 01/25/2024
-# Based on: Constants definition and examples for socket.AF_INET, socket.SOCK_STREAM, socket.bind, socket.listen
+# Based on: Constants and Objects definition and examples for
+#           socket.AF_INET, socket.SOCK_STREAM, socket.bind, socket.listen
 # Source URL: https://docs.python.org/3/library/socket.html
+
+# Citation for the following python built-in exceptions: KeyboardInterrupt
+# Date: 01/25/2024
+# Based on: exception definition and use case for KeyboardInterrupt
+# Source URL: https://docs.python.org/3/library/exceptions.html

@@ -5,7 +5,6 @@
 #      Program: Sockets and HTTP
 #  Description: Create a simple python program that uses a socket to interact with a server.
 #               Create a socket program to receive arbitrarily large file.
-#               Create a tiny browser and web-server using python sockets.
 
 # import socket.py module to use the python socket API.
 import socket
@@ -44,3 +43,10 @@ def interact_with_server():
 
 if __name__ == "__main__":
     interact_with_server()
+
+# Citation for the following Constants: socket.AF_INET, socket.SOCK_STREAM
+# Citation for the following Socket Objects: socket.connect, socket.sendall
+# Date: 01/25/2024
+# Based on: Constants and Objects definition and examples for
+#           socket.AF_INET, socket.SOCK_STREAM, socket.connect, socket.sendall
+# Source URL: https://docs.python.org/3/library/socket.html
