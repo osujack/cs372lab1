@@ -37,6 +37,7 @@ def create_http_server():
                 response = "HTTP/1.1 200 OK\r\nContent-Type: text/html; charset=UTF-8\r\n\r\n"\
                            "<html>Congratulations! You've downloaded the first Wireshark lab file!</html>\r\n"
                 client_socket.sendall(response.encode())
+                print(response)
 
             finally:
                 # Close the client socket
